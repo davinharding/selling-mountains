@@ -1,0 +1,166 @@
+/* reset */
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+body {
+    background: linear-gradient(white, #F2F3F5);
+    margin: 2em 12em;
+
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-size: .7em;
+  margin-right: 1em;
+}
+/* nav */
+
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+}
+nav {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  display: flex;
+  align-items: center;
+  padding: 0 .5em;
+}
+p.post {
+  color: white;
+  font-size: .7em;
+}
+.leftNav {
+  margin: 0;
+}
+.rightNav {
+  margin: 0;
+}
+button.adPost {
+  background-color: #3AA4D6;
+  border-radius: 5px;
+  align-items: center;
+  width: 130px
+}
+
+/* searchBar */
+.searchBar {
+  display: flex;
+  flex-direction: row;
+}
+form.searchBar {
+  margin: 5em 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  align-items: center;
+}
+input {
+  width: 65%;
+  margin-right: 1em;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+select.dropDown {
+  width: 32%;
+}
+/* filterBar */
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6em;
+  font-size: .8em;
+}
+div.filterBar {
+  height: 3em;
+}
+.dropDownRight {
+  width: 400px;
+}
+button.btn {
+  /* justify-content: center; */
+  margin: 0 .5em;
+  background-color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+select.dropDown {
+  padding: 0, 1em;
+}
+select.forSale {
+  border-bottom: none;
+  font-size: .8em;
+}
+select {
+  margin: 0 .5em;
+  border: none;
+  border-color: #cecece;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+
+}
+/* Images */
+
+img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+div.firstLineImages {
+  display: flex;
+  flex-direction: row;
+  -webkit-filter: drop-shadow(0px 3px 10px rgba(0,0,0,.8));
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
+}
+div.largeMountainListing {
+  margin: .75em;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+}
+div.smallMountainListing {
+  margin: .75em ;
+  background-color: white;
+  border-radius: 5px;
+}
+div.description {
+  padding: 1.5em;
+}
+div.secondLineImages {
+  display: flex;
+  flex-direction: row;
+  -webkit-filter: drop-shadow(0px 3px 10px rgba(0,0,0,.8));
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.8));
+}
+div.overlap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* width: 97% */
+}
+h4 {
+  margin: 0;
+}
+p {
+  color: #4a5a70;
+}

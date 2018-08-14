@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Selling Mountains</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="leftNav">
+        <li><button class="btn"><i class="fas fa-hand-peace"></i></button></li>
+        <li>
+          <select class="forSale" name="saleType">
+          <option value="0">FOR SALE</option></select>
+          <i class="fas fa-chevron-down"></i>
+        </li>
+      </ul>
+      <ul class="rightNav">
+        <li><a href="#">MY ACCOUNT</a></li>
+        <li>
+          <button class="adPost"><p class="post">POST AN AD</p></button>
+        </li>
+      </ul>
+    </nav>
+    <div class="searchBar">
+      <form class="searchBar" action="index.html" method="post">
+        <button class="btn"><i class="fas fa-search"></i></button>
+        <input type="text" name="mountain" placeholder="Mountains">
+        <p>in</p>
+        <select class="dropDown" name="countrySelect">
+          <option value="0">Europe</option>
+          <option value="1">Asia</option>
+          <option value="2">North America</option>
+          <option value="3">South America</option>
+          <option value="4">Africa</option>
+          <option value="5">Austrailia</option>
+          <option value="6">Antarctica</option>
+        </select>
+        <i class="fas fa-chevron-down"></i>
+      </form>
+    </div>
+    <form class="filterBar">
+      <button class="btn"><i class="fas fa-th"></i></button>
+      <button class="btn"><i class="fas fa-th-list"></i></button>
+      <button class="btn"><i class="fas fa-bars"></i></button>
+      <button class="btn"><i class="fas fa-map-marker-alt"></i></button>
+      <select class="dropDown" name="priceSelect">
+        <option value="0">PRICES</option>
+      </select>
+      <i class="fas fa-chevron-down"></i>
+      <select class="dropDown" name="hillSelect">
+        <option value="0">HILLS NUMBER</option>
+      </select>
+      <i class="fas fa-chevron-down"></i>
+      <select class="dropDown" name="typeSelect">
+        <option value="0">TYPE</option>
+      </select>
+      <i class="fas fa-chevron-down"></i>
+      <select class="dropDown" name="moreSelect">
+        <option value="0">MORE</option>
+      </select>
+      <i class="fas fa-chevron-down"></i>
+      <select class="dropDownRight" name="viewSelect" dir="rtl">
+        <option value="0">OLDEST FIRST</option>
+        <option value="1">NEWEST FIRST</option>
+        <option value="2">MOST EXPENSIVE</option>
+        <option value="3">LEAST EXPENSIVE</option>
+      </select>
+      <i class="fas fa-chevron-down"></i>
+    </form>
+    <div class="firstLineImages">
+      <div class="largeMountainListing">
+        <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-414171.jpg&fm=jpg" alt="Mt Everest"></img>
+        <div class="description">
+          <div class="overlap">
+            <h4>$85B</h4>
+            <i class="far fa-heart"></i>
+          </div>
+          <p>Mount Everest in Perfect Condition</p>
+        </div>
+      </div>
+      <div class="smallMountainListing">
+        <img src="https://images.pexels.com/photos/897717/pexels-photo-897717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Random Mt"></img>
+        <div class="description">
+          <div class="overlap">
+            <h4>$56B</h4>
+            <i class="far fa-heart"></i>
+          </div>
+          <p>Dosus peoplus readus actually this textus</p>
+        </div>
+      </div>
+    </div>
+    <div class="secondLineImages">
+      <div class="smallMountainListing">
+        <img src="https://images.pexels.com/photos/934718/pexels-photo-934718.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mattern Horn"></img>
+        <div class="description">
+          <div class="overlap">
+            <h4>$25B</h4>
+            <i class="far fa-heart"></i>
+          </div>
+          <p>Mattern Horn between Switzerland and Italy</p>
+        </div>
+      </div>
+      <div class="smallMountainListing">
+        <img src="https://images.pexels.com/photos/633198/pexels-photo-633198.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Snowden Welsh"></img>
+        <div class="description">
+          <div class="overlap">
+            <h4>$50B</h4>
+            <i class="far fa-heart"></i>
+          </div>
+          <p>Snowden Welsh with rare flora and fauna</p>
+        </div>
+      </div>
+      <div class="smallMountainListing">
+        <img src="https://images.pexels.com/photos/913215/pexels-photo-913215.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Mt Rainier"></img>
+        <div class="description">
+          <div class="overlap">
+            <h4>$8B</h4>
+            <i class="far fa-heart"></i>
+          </div>
+          <p>Volcanic Mount Rainier</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
